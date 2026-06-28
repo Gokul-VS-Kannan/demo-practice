@@ -4,7 +4,7 @@ def multiply(n1,n2):
     if n1 == 0 or n2 ==0:
         return 0
     # check the sign for result
-    if n1 < 0 ^ n2 < 0:
+    if (n1 < 0) ^ (n2 < 0):
         sign = -1
     else:
         sign = 1
