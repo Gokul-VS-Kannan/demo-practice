@@ -9,7 +9,7 @@ def division(dividend,divisor):
     
     # checking sign
     
-    if dividend<0 or divisor<0:
+    if dividend<0 ^ divisor<0:
         sign = -1
     else:
         sign = 1
